@@ -1,7 +1,7 @@
 function initSIMDas()
 %EF#1
-isVBFTKInit = evalin('base','isSIMDASInit');
-if(isVBFTKInit==false)
+isSIMDASInit = evalin('base','isSIMDASInit');
+if(isSIMDASInit==false)
     Resource = evalin('base','Resource');
     Receive = evalin('base','Receive');
     Trans = evalin('base','Trans');
